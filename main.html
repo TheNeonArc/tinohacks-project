@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="main.css" rel="stylesheet">
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        <h1 class="mainheading">STOCK HAWKS</h1>
+        <div id="logo">
+            <img id="hawk" src="https://img.clipartfest.com/7890d9db2358854c1cc79753db6be63b_hawk-head-clipart-hawk-head-clipart-transparent_249-300.png" height="150px" width="150px">
+            <img id="circle" src="https://img.clipartfest.com/50d66cb40d67d4ea2abe43a5fa69d455_download-this-image-as-transparent-circle-on-white-background-clipart_600-596.png" height="150px" width="150px">
+        </div>
+        <div class="divider"></div>
+        <div class="topandbottom">
+            <div class="top">
+                <h3>Today's Top 3 Stocks</h3>
+            <ol>
+                <li>he</li>
+                <li>he</li>
+                <li>xd</li>
+            </ol>
+            </div>
+            <div class="divider"></div>
+            <div class="bottom">
+                <h3>Today's Lowest 3 Stocks</h3>
+            <ol>
+                <li>he</li>
+                <li>he</li>
+                <li>xd</li>
+            </ol>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <fieldset>
+        <div class="form">
+            <form id="form">
+                Minimum Price: <br>
+                <input type="text" name="min"><br><br>
+                Maximum Price: <br>
+                <input type="text" name="max">
+                <br>
+                <br>
+                <input class = "button" type="button" onClick="myFunction(min, max)" value="Enter">
+            </form>
+            <br>
+            <div id="formoutput">
+                <p id="output">Insert info from function</p>
+            </div>
+        </div>
+        </fieldset>
+       <button type="button" id="hi" onclick="myFunction(min, max)">Enter</button>
+    </body>
+</html>
