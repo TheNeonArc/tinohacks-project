@@ -15,39 +15,46 @@
             <div class="top">
                 <h3>Today's Top 3 Stocks</h3>
             <ol>
-                <li>he</li>
-                <li>he</li>
-                <li>xd</li>
+                <li id="li1"></li>
+                <li id="li2"></li>
+                <li id="li3"></li>
             </ol>
             </div>
-            <div class="divider"></div>
-            <div class="bottom">
-                <h3>Today's Lowest 3 Stocks</h3>
-            <ol>
-                <li>he</li>
-                <li>he</li>
-                <li>xd</li>
-            </ol>
             </div>
         </div>
         <div class="divider"></div>
         <fieldset>
         <div class="form">
-            <form id="form">
-                Minimum Price: <br>
-                <input type="text" name="min"><br><br>
+            <form id="form" action="">
                 Maximum Price: <br>
+                <tag for="max">$</tag>
                 <input type="text" name="max">
                 <br>
                 <br>
-                <input class = "button" type="button" onClick="myFunction(min, max)" value="Enter">
+                <input class = "button" type="button" onClick="maxprice(max)" value="Enter">
             </form>
             <br>
             <div id="formoutput">
-                <p id="output">Insert info from function</p>
+                <ol id="output">
+                    <li>
+                        <p id="output1">output</p>
+                    </li>
+                    <li>
+                        <p id="output2"></p>
+                    </li>
+                    <li>
+                        <p id="output3"></p>
+                    </li>
+                    <li>
+                        <p id="output4"></p>
+                    </li>
+                    <li>
+                        <p id="output5"></p>
+                    </li>
+                </ol>
             </div>
         </div>
         </fieldset>
-       <button type="button" id="hi" onclick="myFunction(min, max)">Enter</button>
+        <button style="button" id="test" onClick="testt()">test</button>
     </body>
 </html>
